@@ -1,75 +1,180 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Full Width Pics - Start Bootstrap Template</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Start Bootstrap</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-        <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full" style="background-image: url('img/fondo.jpeg')">
-            <div class="text-center my-5">
-                <img class="img-fluid rounded-circle mb-4" src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg" alt="..." />
-                <h1 class="text-white fs-3 fw-bolder">Full Width Pics</h1>
-                <p class="text-white-50 mb-0">Landing Page Template</p>
-            </div>
-        </header>
-        <!-- Content section-->
-        <section class="py-5">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Full Width Backgrounds</h2>
-                        <p class="lead">A single, lightweight helper class allows you to add engaging, full width background images to sections of your page.</p>
-                        <p class="mb-0">The universe is almost 14 billion years old, and, wow! Life had no problem starting here on Earth! I think it would be inexcusably egocentric of us to suggest that we're alone in the universe.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Image element - set the background image for the header in the line below-->
-        <div class="py-5 bg-image-full" style="background-image: url('https://source.unsplash.com/4ulffa6qoKA/1200x800')">
-            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-            <div style="height: 20rem"></div>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Constructora Diema</title>
+    <link rel="icon" type="image/x-icon" href="assets/logo.png" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body {
+            scroll-behavior: smooth;
+        }
+        header {
+            background-image: url('img/fondo.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+        }
+        .bg-image-full {
+            background-size: cover;
+            background-position: center;
+        }
+        .mini-galeria img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="assets/logo.png" alt="Logo" width="40" class="d-inline-block align-text-top" />
+            Constructora Diema
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#quienes">Quiénes Somos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#servicios">Servicios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#mini-proyectos">Proyectos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#testimonios">Testimonios</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+            </ul>
         </div>
-        <!-- Content section-->
-        <section class="py-5">
-            <div class="container my-5">
-                <div class="row justify-content-center">
-                    <div class="col-lg-6">
-                        <h2>Engaging Background Images</h2>
-                        <p class="lead">The background images used in this template are sourced from Unsplash and are open source and free to use.</p>
-                        <p class="mb-0">I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.</p>
-                    </div>
-                </div>
+    </div>
+</nav>
+
+<!-- HEADER -->
+<header class="py-5 bg-image-full text-center" style="padding-top: 100px;">
+    <div class="container">
+        <img src="assets/logo.png" alt="Logo" width="120" class="mb-4" />
+        <h1 class="display-5 fw-bold">Transformamos espacios, construimos confianza.</h1>
+        <p class="lead mb-4">Desde 2018, en Constructora Diema renovamos hogares y oficinas con compromiso, calidad y cercanía.</p>
+        <a class="btn btn-primary btn-lg" href="#contacto">Contáctanos</a>
+    </div>
+</header>
+
+<!-- QUIÉNES SOMOS -->
+<section id="quienes" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">👷‍♂️ Quiénes Somos</h2>
+        <p>Constructora Diema nace el 6 de septiembre de 2018 como una empresa familiar con una visión clara: ofrecer un servicio cálido, responsable y altamente profesional.</p>
+        <p>Nos hemos hecho conocidos gracias al boca a boca y a las recomendaciones de nuestros propios clientes. Nos mueve el compromiso, la cercanía y el deseo de superar expectativas.</p>
+        <p><em>"Somos constructores de confianza, y eso se nota en cada proyecto."</em></p>
+    </div>
+</section>
+
+<!-- SERVICIOS -->
+<section id="servicios" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">🧱 Nuestros Servicios</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <h5>✅ Construcción y remodelación de:</h5>
+                <ul>
+                    <li>Oficinas</li>
+                    <li>Departamentos</li>
+                    <li>Casas</li>
+                </ul>
             </div>
-        </section>
-        <!-- Footer-->
-        <footer class="py-5 bg-dark">
-            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Your Website 2023</p></div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+            <div class="col-md-6">
+                <h5>✅ Servicios adicionales:</h5>
+                <ul>
+                    <li>Diseño y planificación</li>
+                    <li>Dirección de obra</li>
+                    <li>Supervisión técnica</li>
+                </ul>
+            </div>
+        </div>
+        <p class="mt-4 text-center">Nos adaptamos a cada cliente, desde la primera idea hasta la entrega final.</p>
+    </div>
+</section>
+
+<!-- MINI PROYECTOS -->
+<section id="mini-proyectos" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">🏗️ Proyectos Recientes</h2>
+        <div class="row mini-galeria">
+            <div class="col-md-4 mb-3">
+                <img src="img/mini-proyecto1.jpg" alt="Proyecto 1" class="img-fluid rounded" />
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/mini-proyecto2.jpg" alt="Proyecto 2" class="img-fluid rounded" />
+            </div>
+            <div class="col-md-4 mb-3">
+                <img src="img/mini-proyecto3.jpg" alt="Proyecto 3" class="img-fluid rounded" />
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <a href="proyectos.html" class="btn btn-outline-primary">Ver más proyectos</a>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIOS -->
+<section id="testimonios" class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">💬 Testimonios</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <blockquote class="blockquote">“Gracias a Constructora Diema por remodelar nuestro hogar con tanta dedicación. Se nota que aman lo que hacen.”
+                    <footer class="blockquote-footer">Familia Fuentes, Ñuñoa</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote">“Cumplieron todo en los plazos acordados, y el resultado fue incluso mejor de lo que esperábamos.”
+                    <footer class="blockquote-footer">Carla R., Providencia</footer>
+                </blockquote>
+            </div>
+            <div class="col-md-4">
+                <blockquote class="blockquote">“Trabajar con ellos fue como trabajar con amigos de confianza. Totalmente recomendables.”
+                    <footer class="blockquote-footer">Rodrigo M., Las Condes</footer>
+                </blockquote>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contacto" class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-4">📍 Contacto</h2>
+        <p class="text-center">
+            <strong>Dirección oficina:</strong><br>
+            Av. Providencia 1208, oficina 1603<br>
+            Providencia, Santiago
+        </p>
+        <p class="text-center">
+            <strong>Teléfonos de contacto:</strong><br>
+            📞 +56 9 6306 5215 – Diego Abrigo<br>
+            📞 +56 9 6306 5235 – Marcelo Abrigo
+        </p>
+        <p class="text-center">
+            <strong>Correo electrónico:</strong><br>
+            📧 <a href="mailto:constructoradiema@gmail.com">constructoradiema@gmail.com</a>
+        </p>
+        <p class="text-center">
+            <strong>Instagram:</strong><br>
+            📸 <a href="https://www.instagram.com/constructora.diema" target="_blank">@constructora.diema</a>
+        </p>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">&copy; 2025 Constructora Diema. Todos los derechos reservados.</p>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
