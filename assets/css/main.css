@@ -1,11 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
 
-/*
-	Spectral by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -1859,7 +1855,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #6987a1;
 		}
 
 	select {
@@ -2487,7 +2483,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #ed4933;
+			background-color: #eb031a;
 			box-shadow: none !important;
 			color: #ffffff !important;
 		}
@@ -2497,7 +2493,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #ef5e4a !important;
+				background-color: #eb031a !important;
 			}
 
 			input[type="submit"].primary:active,
@@ -2505,7 +2501,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #eb341c !important;
+				background-color: #eb031a !important;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2817,7 +2813,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #21b2a6;
+			background-color: #2c4663de;
 			color: #c8ece9;
 		}
 
@@ -2871,7 +2867,7 @@ input, select, textarea {
 
 				.wrapper.style1 select option {
 					color: #ffffff;
-					background: #21b2a6;
+					background: #6987a1;
 				}
 
 			.wrapper.style1 input[type="checkbox"] + label,
@@ -2887,7 +2883,7 @@ input, select, textarea {
 			.wrapper.style1 input[type="checkbox"]:checked + label:before,
 			.wrapper.style1 input[type="radio"]:checked + label:before {
 				background: #ffffff;
-				color: #21b2a6;
+				color: #6987a1;
 			}
 
 			.wrapper.style1 ::-webkit-input-placeholder {
@@ -3351,7 +3347,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #0a2037;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -4000,7 +3996,7 @@ input, select, textarea {
 		background-color: #1d242a;
 	}
 	.banner-box {
-  background-color: rgba(0, 0, 0, 0.5); /* negro con transparencia */
+  background-color: rgba(0, 0, 0, 0.3); /* negro con transparencia */
   padding: 1.5rem;
   border-radius: 10px;
   display: inline-block;
